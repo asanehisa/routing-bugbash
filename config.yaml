@@ -24,3 +24,8 @@ staticRedirects:
 #   includePaths:
 #     - /red # red is locked down
 
+authentication:
+  policyName: foo
+  includePaths: /green
+  excludePaths: /red
+
