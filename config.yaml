@@ -26,6 +26,6 @@ staticRedirects:
 
 authentication:
   policyName: foo
-  includePaths: /green
-  excludePaths: /red
+  includePaths: 
+    - /green
 
